@@ -7,7 +7,7 @@ function Car(props) {
 function App() {
   return (
     <div>
-      <h1>React JSX Attributes</h1>
+      <h1>React JSX Props</h1>
       <Car color="yellow" />
     </div>
   );
