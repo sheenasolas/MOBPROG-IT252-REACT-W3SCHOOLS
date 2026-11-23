@@ -12,4 +12,14 @@ function Car() {
     </>
   );
 }
+
+function App() {
+  return (
+    <div>
+      <h1>React JSX Introduction</h1>
+      <Car />
+    </div>
+  );
+}
+
 export default App;
