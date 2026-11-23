@@ -1,24 +1,16 @@
-function CarExpression() {
-  const myobj = {
-    name: "Fiat",
-    model: "500",
-    color: "white"
+function Car() {
+  const mystyles = {
+    color: "red",
+    fontSize: "20px",
+    backgroundColor: "lightyellow",
   };
+
   return (
     <>
-      <h1>My car is a {myobj.color} {myobj.name} {myobj.model}</h1>
+      <h1 style={mystyles}>My car</h1>
     </>
   );
 }
-
-// Main App
-function App() {
-  return (
-    <div>
-      <h1>React JSX Expressions</h1>
-      <CarExpression/>
-    </div>
-  );
-}
-
-export default App;
+createRoot(document.getElementById('root')).render(
+  <Car />
+);
