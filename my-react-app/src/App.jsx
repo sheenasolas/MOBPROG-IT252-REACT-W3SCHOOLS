@@ -4,6 +4,13 @@ function Car(props) {
   );
 }
 
-createRoot(document.getElementById('root')).render(
-  <Car color="yellow"/>
-);
+function App() {
+  return (
+    <div>
+      <h1>React JSX Attributes</h1>
+      <Car color="yellow" />
+    </div>
+  );
+}
+
+export default App;
