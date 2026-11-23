@@ -1,20 +1,3 @@
-import { createRoot } from 'react-dom/client'
-
-// Introduction
-function Car() {
-  const brand = "Ford";
-  const model = "Mustang";
-
-  return (
-    <>
-      <h2>My Car</h2>
-      <p>It is a {brand} {model}.</p>
-      <p>React JSX Intro</p>
-    </>
-  );
-}
-
-// Expressions
 function CarExpression() {
   const myobj = {
     name: "Fiat",
@@ -31,12 +14,6 @@ function CarExpression() {
 // Main App
 function App() {
   return (
-    <div>
-      <h1>React JSX Introduction</h1>
-      <Car />
-
-    </hr> 
-
     <div>
       <h1>React JSX Expressions</h1>
       <CarExpression/>
