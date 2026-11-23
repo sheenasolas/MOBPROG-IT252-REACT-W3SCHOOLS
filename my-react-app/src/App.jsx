@@ -1,6 +1,6 @@
 function Car() {
   const mystyles = {
-    color: "red",
+    color: "pink",
     fontSize: "20px",
     backgroundColor: "lightyellow",
   };
@@ -11,6 +11,14 @@ function Car() {
     </>
   );
 }
-createRoot(document.getElementById('root')).render(
-  <Car />
-);
+
+function App() {
+  return (
+    <div>
+      <h1>React JSX Attributes</h1>
+      <Car />
+    </div>
+  );
+}
+
+export default App;
