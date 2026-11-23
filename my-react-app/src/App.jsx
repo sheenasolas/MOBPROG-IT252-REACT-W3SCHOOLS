@@ -1,12 +1,16 @@
-function App() {
+import { createRoot } from 'react-dom/client'
+
+function Car() {
+  const brand = "Ford";
+  const model = "Mustang";
   return (
-<div className="App">
-<h1>Hello MOBPROG-IT252!</h1>
-<h2>Happy 2026 SoCIT Fest!</h2>
-<h2>have a good long weekend and holiday</h2>
-<h3>Sheena Clarisse Solas</h3>
-</div>
+    <>
+      <h2>My Car</h2>
+      <p>It is a {brand} {model}.</p>
+    </>
   );
 }
- 
-export default App;
+
+createRoot(document.getElementById('root')).render(
+  <Car />
+)
